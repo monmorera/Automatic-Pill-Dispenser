@@ -11,7 +11,7 @@ The software must consider the motor's on and off times so it doesn't over dispe
 Linking software to hardware in terms of user input is the user's ability to interact with the "calendar" of the medicine. For this project we shall constrain the limit of time to one day instead of week for convenience. With this we have LCD displays that demonstrate the time and what medication is dispensed. In consideration the project will be targeted to old and infirmed, externals must be simple with user interaction at maximum be with simple buttons and switches.
 
 ## Hardware
-- Mon Monorera
+- Mon Morera
 - Mike Liu
 
 The hardware should consider the ease of use, internal tray, and wheel design. The exterior box, since is a prototype at best, should be simply laser cut from plastic or wood. No need to be fancy, but clear plastic is preferable since we can see what happen on the inside.
