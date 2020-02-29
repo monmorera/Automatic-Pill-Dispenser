@@ -1,9 +1,16 @@
+// setting PWM properties
+int power = 0;
 void setup() {
-  // put your setup code here, to run once:
+  // configure PWM functionalities
+  //Serial.begin(9600);
+  //setupMotor();
+  
+  // attach the pwmChannel to the outputGPIO to be controlled
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  //max is 255 min is 0
+//  receiveMessage();
+  //buzzMotor(200);
 }
