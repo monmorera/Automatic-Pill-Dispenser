@@ -9,7 +9,6 @@ Stepper steppermotor(STEPS_PER_REV, 8, 10, 9, 11); //pins A08, A10, A09, A11
 
 void setup() {
   // put your setup code here, to run once:
-  //StepsRequired = STEPS_PER_OUT_REV;
 
 }
 
