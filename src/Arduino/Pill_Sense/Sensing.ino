@@ -8,11 +8,14 @@ long unblockedValue; //Average IR at power up
 long startTime; //Used to calculate measurement rate
 
 void setupSense(){
+  Serial.println("no");
   if (particleSensor.begin(Wire, I2C_SPEED_FAST) == false) //Use default I2C port, 400kHz speed
   {
+    Serial.println("hi");
     Serial.println("MAX30105 was not found. Please check wiring/power. ");
     while (1);
   }
+  Serial.print("Hi");
   //Setup to sense up to 18 inches, max LED brightness
   byte ledBrightness = 0xFF; //Options: 0=Off to 255=50mA
   byte sampleAverage = 4; //Options: 1, 2, 4, 8, 16, 32
@@ -42,5 +45,7 @@ void runSense(){
   if (currentDelta > (long)1000)
   {
     Serial.println(" Something is there!");
+    runStepper();
+    Serial.println("Hi");
   }
 }
