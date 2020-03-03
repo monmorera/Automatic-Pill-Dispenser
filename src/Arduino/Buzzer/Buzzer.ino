@@ -1,14 +1,14 @@
-int buzzerPin = 8;
+int buzzerPin = 12;
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode (buzzerPin, OUTPUT);
+  pinMode (buzzer, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite (buzzerPin, HIGH);
-  delay (500);
-  digitalWrite (buzzerPin, LOW);
-  delay (500);
+  digitalWrite (buzzer, HIGH);
+  delay (1000);
+  digitalWrite (buzzer, LOW);
+  delay (1000);
 }
