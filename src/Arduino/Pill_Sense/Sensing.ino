@@ -39,13 +39,13 @@ void setupSense(){
   startTime = millis();
 }
 
-void runSense(){
+bool runSense(){
   samplesTaken++;
   long currentDelta = particleSensor.getIR() - unblockedValue;
   if (currentDelta > (long)1000)
   {
     Serial.println(" Something is there!");
-    runStepper();
-    Serial.println("Hi");
+    return true;
   }
+  return false;
 }
