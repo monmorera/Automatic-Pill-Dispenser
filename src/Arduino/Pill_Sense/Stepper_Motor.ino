@@ -8,7 +8,7 @@ int StepsRequired;
 Stepper steppermotor(STEPS_PER_REV, 8, 10, 9, 11); //pins A08 = IO26, A10 = IO1, A09 = IO25, A11 = IO3
 
 void runStepper(){
-  StepsRequired = STEPS_PER_OUT_REV;
+  StepsRequired = 200;
   steppermotor.setSpeed(1000);
   steppermotor.step(StepsRequired);
   delay(1000);
