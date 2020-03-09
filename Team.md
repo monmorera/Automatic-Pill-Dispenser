@@ -1,4 +1,4 @@
-#IEEE QP Team 6
+# IEEE QP Team 6
 
 ## Software
 - Travis Davis
