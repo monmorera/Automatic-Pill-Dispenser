@@ -4,9 +4,9 @@ This project is a simple automatic pill dispenser using an Arduino Mega and C++ 
 </td></tr></table>
 
 
-## Built with:
+## Technologies
 Project is created with:
-* Arduino IDE: 1.8.12
+* Arduino IDE: v1.8.12
 * Arduino Mega 2560
 * I2C 0.69" OLED LCD Module
 * MAX30105 Particle and Pulse Ox Sensor
