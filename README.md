@@ -1,4 +1,4 @@
-# UCSDIEEE_team_6_WI_2020
+# Automatic Pill Dispenser
 
 ## Software
 - Travis Davis
